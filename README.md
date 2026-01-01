@@ -8,12 +8,14 @@ RapidReport is a web application that makes it easy for people to report inciden
 
 ## Key Features
 
-🤖 **Smart AI Analysis** - Upload a photo and let AI automatically detect what happened and fill in report details <br>
-📱 **Easy Reporting** - Simple forms that work on any device  <br>
-🔍 **Track Progress** - Follow your report status with a unique tracking ID <br>
-👨‍💼 **Admin Dashboard** - Tools for administrators to manage and respond to reports <br>
-📍 **Location Services** - Automatic location detection or manual entry <br>
-🆘 **Emergency Support** - Quick access to emergency contacts and local services <br>
+**Smart AI Analysis** - Upload a photo and let AI automatically detect what happened and fill in report details <br>
+**Easy Reporting** - Simple forms that work on any device  <br>
+**Track Progress** - Follow your report status with a unique tracking ID <br>
+**Admin Dashboard** - Tools for administrators to manage and respond to reports <br>
+**Location Services** - Automatic location detection or manual entry <br>
+**Emergency Support** - Quick access to emergency contacts and local services <br>
+**Email Notifications** - Automatic email updates when reports are submitted and status changes <br>
+
 
 ## How It Works
 
@@ -37,6 +39,7 @@ RapidReport is a web application that makes it easy for people to report inciden
 - MongoDB database
 - Google Gemini AI for image analysis
 - Cloudinary for image storage
+- Resend for email service
 
 **Tools**
 
@@ -83,18 +86,6 @@ rapidReport/
 2. View all submitted reports
 3. Update report statuses
 4. Monitor system analytics
-
-## API Endpoints
-
-**Base URL:** http://localhost:8123
-
-**Key Endpoints:**
-
-- `POST /api/submit-report` - Submit new report
-- `GET /api/track-report/:reportId` - Track report status
-- `POST /api/analyze-image` - AI image analysis
-- `GET /api/admin/reports` - Admin: view all reports
-- `POST /auth/login` - Admin login
 
 ## Contributing
 
